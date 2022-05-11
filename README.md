@@ -16,7 +16,7 @@ Install Terraform - [instructions](https://www.terraform.io/downloads)
 7. Add the following content
 ```
 resource "random_pet" "name" {
-  length    = "4"
+  length    = "2"
   separator = "-"
 }
 
